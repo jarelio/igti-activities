@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
     cors({
-        origin: 'https://igti-module04-frontend.herokuapp.com/',
+        origin: 'https://igti-module04-frontend.herokuapp.com',
     })
 );
 
